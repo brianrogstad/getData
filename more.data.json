@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "554a523552f8fd2f78f1449b",
+    "index": 0,
+    "guid": "9c879621-9a3c-4425-b1be-d45c3daf3dd6",
+    "isActive": true,
+    "balance": "$2,448.02",
+    "age": 34,
+    "eyeColor": "green",
+    "name": "Jeannette Kaufman",
+    "gender": "female",
+    "company": "MODAL",
+    "email": "jeannettekaufman@cowtown.com",
+    "phone": "+1 (855) 455-3596",
+    "address": "719 Remsen Street, Accoville, Montana, 641",
+    "about": "Velit aliquip esse aliqua culpa minim elit irure."
+  },
+  {
+    "_id": "554a523556fc63ce046d8957",
+    "index": 1,
+    "guid": "79e4b725-20e6-43ba-90d9-9979d939b59a",
+    "isActive": false,
+    "balance": "$3,717.52",
+    "age": 25,
+    "eyeColor": "green",
+    "name": "Mara Bowman",
+    "gender": "female",
+    "company": "UTARA",
+    "email": "marabowman@utara.com",
+    "phone": "+1 (817) 519-3104",
+    "address": "197 Herbert Street, Chalfant, Palau, 5799",
+    "about": "Est enim aliquip adipisicing sunt voluptate."
+  },
+  {
+    "_id": "554a5235a1b88f3647b2e092",
+    "index": 2,
+    "guid": "ce6f33ee-6252-434b-b489-5436ed2dc806",
+    "isActive": true,
+    "balance": "$2,770.93",
+    "age": 26,
+    "eyeColor": "green",
+    "name": "Valencia Bolton",
+    "gender": "male",
+    "company": "KOG",
+    "email": "valenciabolton@kog.com",
+    "phone": "+1 (869) 597-3659",
+    "address": "345 Lake Avenue, Kenmar, North Dakota, 6284",
+    "about": "Mollit sunt consectetur sunt eiusmod do."
+  }
+]
