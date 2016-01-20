@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
-    <script type="text/javascript">
-        var myApp = angular.module('myApp', []);
-
-        myApp.controller('appController', ['$scope', '$http', '$q', function ($scope, $http, $q) {
-            $scope.calls = [];
-            
-            $scope.getData = function() {
-                var firstCallData = $http.get("#", {name: "John"});
-                var secondCallData = $http.get("#", {name: "Sam"});
-                $q.all([firstCallData, secondCallData])
-                    .then(function (response) {
-                        $scope.calls.push(response);
-                    });
-            };
-        }]);
-    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 
 <body ng-controller="appController as app">
-    <button data-ng-click="getData()">Get Data</button>
-    <div ng-repeat="call in calls">
-        <p>First Call: {{call[0].config.name}}</p>
-        <p>Second Call: {{call[1].config.name}}</p>
+    <div class="container">
+        <h4>Use button to simultaneously get data from two different sources, combine it and render it using angular</h4>
+        <button data-ng-click="getData()" class="btn btn-primary">Get Data</button>
+        <div ng-repeat="object in objects track by $index" class="well">
+            <p><strong>Name:</strong> {{object.name}}</p>
+            <p><strong>Company:</strong> {{object.company}}</p>
+            <p><strong>About:</strong> {{object.about}}</p>
+            <p><strong>Phone:</strong> {{object.phone}}</p>
+            <p><strong>Address:</strong>{{object.address}}</p>
+        </div>
     </div>
+    <script type="text/javascript" src="controller.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,4 @@
-[
-  {
+[{
     "_id": "554a5235afb6c97dbfd1348f",
     "index": 3,
     "guid": "20ec9e89-5f23-4634-aca3-d398c2393da1",
@@ -14,8 +13,7 @@
     "phone": "+1 (931) 478-2701",
     "address": "997 Battery Avenue, Mathews, Colorado, 4069",
     "about": "Duis occaecat esse id minim dolore occaecat sint veniam incididunt non."
-  },
-  {
+}, {
     "_id": "554a52353447c6832584c6d6",
     "index": 4,
     "guid": "52f1129d-37fe-454e-90a4-c8b622db286b",
@@ -30,5 +28,4 @@
     "phone": "+1 (894) 588-3060",
     "address": "536 Wyona Street, Gambrills, Oregon, 5628",
     "about": "Consequat velit proident culpa occaecat incididunt veniam mollit cupidatat laboris amet fugiat qui."
-  }
-]
+}]
